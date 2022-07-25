@@ -15,8 +15,8 @@ export default function Home() {
         </div>
 
         <div className="website-wrapper">
-            <div className="website-container"><Project name="Vixy Games" img={arkaplansızlogo}/></div>
-            <div className="website-container"><Project name="Airport Patrol" img={vatandaşlıkbelgesi}/></div>
+            <div className="website-container"><Project link="https://vixygames.netlify.app/" name="Vixy Games" img={arkaplansızlogo}/></div>
+            <div className="website-container"><Project link="https://airportpatrol.netlify.app/" name="Airport Patrol" img={vatandaşlıkbelgesi}/></div>
         </div>
     </div>
   )
