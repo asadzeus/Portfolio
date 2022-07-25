@@ -1,0 +1,14 @@
+.about{
+    background-color: rgb(46, 46, 46);
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-bottom: 5px solid rgb(28, 28, 28); 
+}
+
+.aboutme{
+    height: 250px;
+}

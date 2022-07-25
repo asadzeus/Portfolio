@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(46, 46, 46);
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(187, 187, 187);
+}
+
+h3{
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: rgb(187, 187, 187);
+}
+
+.app{
+    height: 100vh;
+}
+
+.sections{
+    width: 100%;
+    height: calc(100vh - 100px);
+    position: relative;
+    top: 100px;
+}

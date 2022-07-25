@@ -1,0 +1,26 @@
+.project{
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid rgb(28, 28, 28);
+    background-color: rgb(99, 99, 99);
+    border-radius: 25px;
+    margin: 0px 25px;
+    cursor: pointer;
+}
+
+.project:hover{
+    background-color: rgb(68, 68, 68);
+}
+
+.website-title{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+
+.website-img{
+    height: 200px;
+}
